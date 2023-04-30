@@ -1,0 +1,43 @@
+.container {
+    background: #132235;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px 8px 60px;
+}
+
+.logo {
+    width: 288px;
+    height: 71px;
+}
+
+.menu {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    width: 340px;
+    justify-content: space-between;
+}
+
+.corpo {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.corpo {
+    display: flex;
+}
+
+.titulo h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.titulo p {
+    font-size: 25px;
+}

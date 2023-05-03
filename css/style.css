@@ -1,43 +1,76 @@
-.container {
-    background: #132235;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 60px 8px 60px;
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-.logo {
-    width: 288px;
-    height: 71px;
+header {
+    background-color: #132235;
+    width: auto;
 }
 
-.menu {
-    color: white;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    width: 340px;
-    justify-content: space-between;
-}
 
-.corpo {
-    display: flex;
 
-}
 
-a {
-    text-decoration: none;
-}
 
-.corpo {
-    display: flex;
-}
 
-.titulo h1 {
-    font-size: 70px;
-    font-weight: 700;
-}
 
-.titulo p {
-    font-size: 25px;
+
+
+
+@media screen and (max-width: 480px){
+    .containerCabecalho{
+        width: 375px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .logo {
+        width: 159px;
+        height: 39px;
+        padding-left: 7px;
+    }
+
+    .menu {
+        padding-right: 20px;
+    }
+
+    .containerMain1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    .titulo {
+        padding: 20px;
+        font-size: 45px;
+        font-family: 'Open Sans';
+        font-weight: bold;
+    }
+
+    .subtitulo {
+        padding: 20px;
+        font-family: 'Open Sans';
+        font-size: 16px;
+    }
+
+    .botao {
+        width: 335px;
+        height: 36px;
+        border-radius: 10px;
+        background-color: #132235;
+        color: #6ddad3;
+        font-size: 20px;
+        font-weight: 700;
+        border-color: #132235;
+    }
+
+
+
+
 }
